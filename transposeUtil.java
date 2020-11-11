@@ -4,6 +4,10 @@ public class transposeUtil {
 
     public static double[][] transpose (boolean print, double[][] matrix, int m, int n, int axis) {
         /*
+        
+            WARNING:--- SOME OF THE FOLLOWING COMMENTS TELL WRONG APPROACH, CAN BE MISLEADING.
+            ----------------------------------------------------------------------------------
+            
             ALL THE FOLLOWING APPROACHES UTILISE EXTRA SPACE---->>
             axis = 1: Main diagonal
                 new[i][j] = old[j][i]
